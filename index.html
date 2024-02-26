@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Language Selector</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="iphone-container">
+      <div class="iphone">
+        <div class="screen">
+          <div class="mobile-screen">
+            <div class="centered-text">Select Language</div>
+            <div class="language-options">
+              <button id="english-button">English</button>
+              <button id="nepali-button">Nepali</button>
+            </div>
+            <button id="continue-button" class="hidden">Continue &rarr;</button>
+          </div>
+        </div>
+        <div id="new-screen" class="screen hidden">
+          <div class="mobile-screen">
+            <button id="menu-icon">&#9776;</button>
+            <div id="menu-container" class="menu-container hidden">
+              <button class="menu-option">Bikes</button>
+              <button class="menu-option">Scooters</button>
+              <button class="menu-option">About Us</button>
+              <button class="menu-option">Contact</button>
+            </div>
+            <!-- <button id="cart-button" class="cart-button">Cart</button>
+            <button id="user-profile-button" class="user-profile-button">
+              Profile
+            </button> -->
+            <div id="profile-modal" class="modal">
+              <div class="modal-content">
+                <!-- User information content goes here -->
+              </div>
+            </div>
+            <div class="centered-text">New Screen</div>
+            <!-- Add your content for the new screen here -->
+          </div>
+        </div>
+        <div class="buttons">
+          <div class="button"></div>
+          <div class="button"></div>
+          <div class="button"></div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
